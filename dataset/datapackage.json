@@ -1,0 +1,50 @@
+{
+  "name": "pacientes-longa-permanencia",
+  "owner_org": "fundacao-hospitalar-do-estado-de-minas-gerais-fhemig",
+  "profile": "data-package",
+  "resources": [
+    {
+      "description": "Insira a descrição/explicação detalhada deste recurso.",
+      "dialect": {
+        "delimiter": ";"
+      },
+      "encoding": "utf-8-sig",
+      "format": "csv",
+      "hashing": "md5",
+      "name": "longa-permanencia",
+      "path": "data/longa-permanencia.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "unidade",
+            "type": "string"
+          },
+          {
+            "name": "ano",
+            "type": "integer"
+          },
+          {
+            "name": "mes",
+            "type": "integer"
+          },
+          {
+            "name": "pacientes_lp",
+            "type": "integer"
+          },
+          {
+            "name": "saidas",
+            "type": "geopoint"
+          },
+          {
+            "name": "tx_lp",
+            "type": "string"
+          }
+        ]
+      },
+      "scheme": "file",
+      "title": "Insira um título humanamente legível para este recurso."
+    }
+  ],
+  "title": "Pacientes longa permanencia"
+}
