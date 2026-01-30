@@ -24,13 +24,13 @@ resources:
           description: "Mês de referência."
         - name: pacientes_lp
           type: integer
-          description: "Paciente de Longa Permanência (pacientes que excedem o tempo de internação padrão)."
+          description: "Total de pacientes de longa permanência (pacientes que excedem o tempo de internação padrão de 30 dias)."
         - name: saidas
           type: geopoint
-          description: "Saídas (Altas devidamente codificadas no DRG)."
+          description: "Total de saídas hospitalares."
         - name: tx_lp
           type: string
-          description: "Taxa de Paciente de Longa Permanência (proporção de pacientes que excedem o tempo de internação padrão)."
+          description: "Taxa de Paciente de Longa Permanência (proporção de pacientes deram saída após mais de 30 dias de internação em relação ao total de saídas)."
     scheme: file
     title: Taxa de Paciente de Longa Permanência.
 title: Pacientes longa permanencia
