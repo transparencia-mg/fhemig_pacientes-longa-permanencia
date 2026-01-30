@@ -40,7 +40,7 @@
             {
               "name": "saidas",
               "type": "geopoint",
-              "description": "Total de saídas hospitalares."
+              "description": "Total de saídas hospitalares (alta (curado, melhorado ou inalterado) evasão, desistência do tratamento, transferência interna, transferência externa ou óbito)."
             },
             {
               "name": "tx_lp",
@@ -58,7 +58,7 @@
           "rows": 0
         }
       },
-      "time": 0.048,
+      "time": 0.047,
       "scope": [
         "hash-count-error",
         "byte-count-error",
