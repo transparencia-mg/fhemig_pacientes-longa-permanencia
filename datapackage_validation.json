@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 0.059,
+  "time": 0.058,
   "errors": [],
   "tasks": [
     {
@@ -35,7 +35,7 @@
             {
               "name": "pacientes_lp",
               "type": "integer",
-              "description": "Pacinte de Longa Permanência (pacientes que excedem o tempo de internação padrão)."
+              "description": "Paciente de Longa Permanência (pacientes que excedem o tempo de internação padrão)."
             },
             {
               "name": "saidas",
@@ -58,7 +58,7 @@
           "rows": 0
         }
       },
-      "time": 0.049,
+      "time": 0.048,
       "scope": [
         "hash-count-error",
         "byte-count-error",
