@@ -24,7 +24,7 @@ resources:
           description: "Mês de referência."
         - name: pacientes_lp
           type: integer
-          description: "Pacinte de Longa Permanência (pacientes que excedem o tempo de internação padrão)."
+          description: "Paciente de Longa Permanência (pacientes que excedem o tempo de internação padrão)."
         - name: saidas
           type: geopoint
           description: "Saídas (Altas devidamente codificadas no DRG)."
