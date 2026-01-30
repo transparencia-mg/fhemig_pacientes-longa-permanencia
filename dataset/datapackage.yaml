@@ -27,7 +27,7 @@ resources:
           description: "Total de pacientes de longa permanência (pacientes que excedem o tempo de internação padrão de 30 dias)."
         - name: saidas
           type: geopoint
-          description: "Total de saídas hospitalares."
+          description: "Total de saídas hospitalares (alta (curado, melhorado ou inalterado) evasão, desistência do tratamento, transferência interna, transferência externa ou óbito)."
         - name: tx_lp
           type: string
           description: "Taxa de Paciente de Longa Permanência (proporção de pacientes deram saída após mais de 30 dias de internação em relação ao total de saídas)."
