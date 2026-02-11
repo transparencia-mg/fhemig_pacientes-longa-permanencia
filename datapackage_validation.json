@@ -1,11 +1,11 @@
 {
   "version": "4.16.6",
-  "time": 0.059,
+  "time": 0.058,
   "errors": [],
   "tasks": [
     {
       "resource": {
-        "description": "Dados de Paciente de Longa Permanência por unidade Fhemig divididos por setor (Tasy) ou centro de custo hospitalar (SIGH).",
+        "description": "Dados de Paciente de Longa Permanência por unidade FHEMIG divididos por setor (Tasy) ou centro de custo hospitalar (SIGH).",
         "dialect": {
           "delimiter": ";"
         },
@@ -58,7 +58,7 @@
           "rows": 0
         }
       },
-      "time": 0.048,
+      "time": 0.047,
       "scope": [
         "hash-count-error",
         "byte-count-error",
