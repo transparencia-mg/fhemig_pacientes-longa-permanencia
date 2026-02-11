@@ -4,7 +4,7 @@
   "profile": "data-package",
   "resources": [
     {
-      "description": "Dados de Paciente de Longa Permanência por unidade Fhemig divididos por setor (Tasy) ou centro de custo hospitalar (SIGH).",
+      "description": "Dados de Paciente de Longa Permanência por unidade FHEMIG divididos por setor (Tasy) ou centro de custo hospitalar (SIGH).",
       "dialect": {
         "delimiter": ";"
       },
@@ -52,5 +52,5 @@
       "title": "Taxa de Paciente de Longa Permanência."
     }
   ],
-  "title": "Pacientes longa permanencia"
+  "title": "Pacientes de Longa Permanência"
 }
